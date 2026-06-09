@@ -1,0 +1,21 @@
+JB#,Job Title,Priority,Job Color,Quote,Sales Order,Invoice,Customer,Quantity,Deposit,Notes,Tasks,Assets,Production Manager,Project Manager,Designer,Installer,Sales Rep,Customer PO#,Due Date,Days Left,Production Due Date,Approved Proof At,Proof Version,Shipping Method,Ship To City,Ship To State,Status,Tags,Created At,Current Proof Status,Art Due Date,Line Items Price,Transaction Title,Created By
+1003,Printed/Cut Decals,1,,,3900,,Leduc Regional Chamber Of Commerce,1.0,0,0,0,0,,,,,,,2026-06-03,-5,,,,,Leduc,AB,Production,"",2026-05-31 22:13:41 -0600,,,150.0,,Dallas Ference
+1005,Install Day 1,1,,,3900,,Leduc Regional Chamber Of Commerce,0.0,0,0,0,0,,,,,,,2026-06-04,-4,,,,,Leduc,AB,Installation,"",2026-06-02 20:41:02 -0600,,,0.0,,Dallas Ference
+1007,Printed Vehicle Wrap,1,#da24ed,,3907,,Slamables,1.0,0,0,0,0,,,,,,,2026-06-09,1,,,,,"","",Production,"",2026-06-03 22:24:39 -0600,,,1558.75,,Dallas Ference
+1008,Install Day 2,1,#ef23f4,,3907,,Slamables,0.0,0,0,0,0,,,,,,,2026-06-10,2,,,,,"","",Installation,"",2026-06-03 22:28:47 -0600,,,0.0,,Dallas Ference
+1012,Printed/Cut Digital Vinyl Graphics,1,#50eb2b,,3909,,Jaron Wolff,1.0,0,0,0,0,,,,,,,2026-06-10,2,2026-06-08,,,,"","",Production,"",2026-06-04 16:51:59 -0600,,,348.59,,Dallas Ference
+1016,Decals,1,,,3915,,Wholesale Trailers & Marine,200.0,0,0,0,0,,,,,,,2026-06-10,2,,,,,"","",Production,"",2026-06-08 12:24:35 -0600,,,450.0,,Dallas Ference
+1009,Install Day 3,1,#fc27bb,,3907,,Slamables,0.0,0,0,0,0,,,,,,,2026-06-11,3,,,,,"","",Installation,"",2026-06-03 22:28:54 -0600,,,0.0,,Dallas Ference
+1014,Vehicle Decals,1,,,3913,,Murray Leimert,1.0,0,0,0,0,,,,,,,2026-06-11,3,,,,,"","",Installation,"",2026-06-08 12:20:21 -0600,,,716.8,,Dallas Ference
+1015,Printed Vehicle Wrap,1,,,3914,,KODA Property Maintenance,1.0,0,0,0,0,,,,,,,2026-06-12,4,,,,,"","",Production,"",2026-06-08 12:21:53 -0600,,,1665.12,,Dallas Ference
+1017,Vehicle Graphics,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-15,7,,,,,"","",Production,"",2026-06-08 12:27:09 -0600,,,731.7,,Dallas Ference
+1025,Vehicle Decals,1,,,3917,,Boardwalk Rental Communities,1.0,0,0,0,0,,,,,,,2026-06-16,8,,,,,"","",Installation,"",2026-06-08 15:04:20 -0600,,,365.85,,Dallas Ference
+1018,Installation,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-16,8,,,,,"","",Installation,"",2026-06-08 12:27:19 -0600,,,0.0,,Dallas Ference
+1019,Vehicle Graphics,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-17,9,,,,,"","",Production,"",2026-06-08 12:29:24 -0600,,,731.7,,Dallas Ference
+1020,Installation,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-18,10,,,,,"","",Installation,"",2026-06-08 12:29:32 -0600,,,0.0,,Dallas Ference
+1023,REMOVAL,1,,,3916,,Gordon Lawrence,1.0,0,0,0,0,,,,,,,2026-06-22,14,,,,,"","",Installation,"",2026-06-08 12:34:04 -0600,,,0.0,,Dallas Ference
+1024,REMOVAL,1,,,3916,,Gordon Lawrence,1.0,0,0,0,0,,,,,,,2026-06-23,15,,,,,"","",Installation,"",2026-06-08 12:34:12 -0600,,,0.0,,Dallas Ference
+1011,Removal,1,,,3908,,Turbo Images Inc.,1.0,0,1,0,0,,,,,,,2026-06-29,21,,,,,"","",Installation,"",2026-06-04 16:35:27 -0600,,,280.0,,Dallas Ference
+1010,Installation,1,,,3908,,Turbo Images Inc.,1.0,0,0,0,0,,,,,,,2026-06-30,22,,,,,"","",Installation,"",2026-06-04 16:35:08 -0600,,,880.0,,Dallas Ference
+1021,Color Change Vehicle Wrap,1,,,3916,,Gordon Lawrence,1.0,0,0,0,0,,,,,,,2026-07-02,24,,,,,"","",Installation,"",2026-06-08 12:33:40 -0600,,,2838.71,,Dallas Ference
+1022,Field Installation,1,,,3916,,Gordon Lawrence,9.0,0,0,0,0,,,,,,,2026-07-03,25,,,,,"","",Installation,"",2026-06-08 12:33:50 -0600,,,1008.0,,Dallas Ference
