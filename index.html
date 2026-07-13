@@ -287,6 +287,29 @@
   .splash-date {margin-top:10px;font-size:28px;color:var(--gold2);font-weight:800}
   .splash-tagline {margin-top:34px;color:var(--gold2);font-size:34px;font-weight:900;letter-spacing:1px}
   .splash-sub {margin-top:12px;color:var(--muted);font-size:22px}
+
+  .planning-shell {
+    background:linear-gradient(180deg, #202020, #121212);
+    border:1px solid rgba(198,160,67,.35);
+    border-radius:20px;
+    padding:12px;
+    box-shadow:var(--shadow);
+    min-height:680px;
+  }
+  .planning-frame {
+    display:block;
+    width:100%;
+    height:680px;
+    border:0;
+    border-radius:12px;
+    background:#ffffff;
+  }
+  .planning-note {
+    color:var(--muted);
+    font-size:13px;
+    margin-top:9px;
+    text-align:right;
+  }
   .footer {
     margin:10px 22px 16px;
     color:var(--muted);
@@ -353,10 +376,11 @@
     <label class="control">Screen Mode
       <select id="screenMode">
         <option value="auto">Auto Rotate</option>
-        <option value="0">Screen 1 — Calendar</option>
-        <option value="1">Screen 2 — Today & Upcoming</option>
-        <option value="2">Screen 3 — Production Summary</option>
-        <option value="3">Screen 4 — Camp Vinyl Splash</option>
+        <option value="0">Screen 1 — ShopVOX Calendar</option>
+        <option value="1">Screen 2 — Planning Calendar</option>
+        <option value="2">Screen 3 — Today & Upcoming</option>
+        <option value="3">Screen 4 — Production Summary</option>
+        <option value="4">Screen 5 — Camp Vinyl Splash</option>
       </select>
     </label>
     <label class="control">ShopVOX Jobs CSV
@@ -376,10 +400,28 @@
     <div class="calendar" id="calendar"></div>
   </section>
 
+  <section class="view" id="planningView">
+    <div class="screen-title">
+      <h2>Planning Calendar</h2>
+      <div class="small">Live from Google Sheets • Screen 2 of 5</div>
+    </div>
+    <div class="planning-shell">
+      <iframe
+        id="planningFrame"
+        class="planning-frame"
+        title="Camp Vinyl Planning Calendar"
+        loading="eager"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2DU25kZMARJLvvc4I5gj6rgQ8fGJwaKbslWDu_OEZppXzKvDNl_RWXY8dPBU9paBCunoSL44Bxmpa/pubhtml?gid=522022010&amp;single=true&amp;widget=true&amp;headers=false">
+      </iframe>
+      <div class="planning-note">Updates automatically from the published Google Sheet.</div>
+    </div>
+  </section>
+
   <section class="view" id="notesView">
     <div class="screen-title">
       <h2>Today & Upcoming</h2>
-      <div class="small">Screen 2 of 4</div>
+      <div class="small">Screen 3 of 5</div>
     </div>
     <div class="info-grid">
       <div class="info-card">
@@ -396,7 +438,7 @@
   <section class="view" id="summaryView">
     <div class="screen-title">
       <h2>Production Summary</h2>
-      <div class="small">Screen 3 of 4</div>
+      <div class="small">Screen 4 of 5</div>
     </div>
     <div class="production-grid">
       <div class="prod-col"><h3>Installation</h3><div id="installList"></div></div>
@@ -419,7 +461,7 @@
 </main>
 
 <div class="footer">
-  <div id="screenLabel">SCREEN 1 OF 4 • CALENDAR VIEW</div>
+  <div id="screenLabel">SCREEN 1 OF 5 • SHOPVOX CALENDAR</div>
   <div><b>↻ AUTO ROTATE:</b> Every 30 Seconds</div>
   <div id="lastUpdated">Last Updated: --:--</div>
 </div>
@@ -434,7 +476,7 @@
     legend:document.getElementById('legend'), clock:document.getElementById('clock'), dateNow:document.getElementById('dateNow'),
     statJobs:document.getElementById('statJobs'), statInstalls:document.getElementById('statInstalls'),
     statProduction:document.getElementById('statProduction'), statEvents:document.getElementById('statEvents'),
-    calendarView:document.getElementById('calendarView'), notesView:document.getElementById('notesView'),
+    calendarView:document.getElementById('calendarView'), planningView:document.getElementById('planningView'), planningFrame:document.getElementById('planningFrame'), notesView:document.getElementById('notesView'),
     summaryView:document.getElementById('summaryView'), splashView:document.getElementById('splashView'), splashClock:document.getElementById('splashClock'), splashDate:document.getElementById('splashDate'), todayJobsList:document.getElementById('todayJobsList'),
     eventsList:document.getElementById('eventsList'), installList:document.getElementById('installList'),
     productionList:document.getElementById('productionList'), otherList:document.getElementById('otherList'),
@@ -442,7 +484,7 @@
   };
   let jobsRows=[], eventsRows=[], screen=0, rotateTimer=null;
   const palette=['#54c63a','#f0bd35','#2ea3ff','#a85cff','#ff8b20','#ff4d4d','#28c7a7','#d66cff','#8dd45f','#4a7fff'];
-  const labels=['SCREEN 1 OF 4 • CALENDAR VIEW','SCREEN 2 OF 3 • TODAY & UPCOMING','SCREEN 3 OF 3 • PRODUCTION SUMMARY'];
+  const labels=['SCREEN 1 OF 5 • SHOPVOX CALENDAR','SCREEN 2 OF 5 • PLANNING CALENDAR','SCREEN 3 OF 5 • TODAY & UPCOMING','SCREEN 4 OF 5 • PRODUCTION SUMMARY','SCREEN 5 OF 5 • CAMP VINYL'];
 
   function formatISO(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
   function todayISO(){return formatISO(new Date());}
@@ -524,10 +566,10 @@
 
   function showScreen(n){
     screen=n;
-    [els.calendarView,els.notesView,els.summaryView,els.splashView].forEach((v,i)=>v.classList.toggle('active',i===screen));
+    [els.calendarView,els.planningView,els.notesView,els.summaryView,els.splashView].forEach((v,i)=>v.classList.toggle('active',i===screen));
     els.screenLabel.textContent=labels[screen];
   }
-  function rotate(){showScreen((screen+1)%4);}
+  function rotate(){showScreen((screen+1)%5);}
   function applyScreenMode(){
     if(rotateTimer) clearInterval(rotateTimer);
     if(els.screenMode.value === 'auto'){
@@ -556,6 +598,12 @@
     }
   }
 
+  function refreshPlanningFrame(){
+    if(!els.planningFrame) return;
+    const base = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR2DU25kZMARJLvvc4I5gj6rgQ8fGJwaKbslWDu_OEZppXzKvDNl_RWXY8dPBU9paBCunoSL44Bxmpa/pubhtml?gid=522022010&single=true&widget=true&headers=false';
+    els.planningFrame.src = base + '&refresh=' + Date.now();
+  }
+
   async function autoLoadHostedCSVs(){
     const hostedJobs = await loadCsvFromSite('jobs.csv');
     if(hostedJobs && hostedJobs.length){
@@ -577,6 +625,7 @@
   applyScreenMode();
   autoLoadHostedCSVs();
   setInterval(autoLoadHostedCSVs,300000);
+  setInterval(refreshPlanningFrame,300000);
 
 })();
 </script>
