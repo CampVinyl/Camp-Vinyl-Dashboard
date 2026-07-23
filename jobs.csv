@@ -1,34 +1,34 @@
 JB#,Job Title,Priority,Job Color,Quote,Sales Order,Invoice,Customer,Quantity,Deposit,Notes,Tasks,Assets,Production Manager,Project Manager,Designer,Installer,Sales Rep,Customer PO#,Due Date,Days Left,Production Due Date,Approved Proof At,Proof Version,Shipping Method,Ship To City,Ship To State,Status,Tags,Created At,Current Proof Status,Art Due Date,Line Items Price,Transaction Title,Created By
-1031,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-15,-38,,,,,"","",Installation,"",2026-06-12 15:33:34 -0600,,,0.0,,Dallas Ference
-1017,Vehicle Graphics,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-15,-38,,,,,"","",Production,"",2026-06-08 12:27:09 -0600,,,731.7,,Dallas Ference
-1032,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-16,-37,,,,,"","",Installation,"",2026-06-12 15:33:37 -0600,,,0.0,,Dallas Ference
-1018,Installation,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-16,-37,,,,,"","",Installation,"",2026-06-08 12:27:19 -0600,,,0.0,,Dallas Ference
-1033,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-17,-36,,,,,"","",Installation,"",2026-06-12 15:33:41 -0600,,,0.0,,Dallas Ference
-1019,Vehicle Graphics,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-17,-36,,,,,"","",Production,"",2026-06-08 12:29:24 -0600,,,731.7,,Dallas Ference
-1030,Color Change Vehicle Wrap,1,,,3924,,Impulse Garage,30.0,0,0,0,0,,,,,,,2026-06-18,-35,,,,,"","",Installation,"",2026-06-12 15:33:28 -0600,,,3150.0,,Dallas Ference
-1020,Installation,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-18,-35,,,,,"","",Installation,"",2026-06-08 12:29:32 -0600,,,0.0,,Dallas Ference
-1042,Vehicle Decals,1,,,3948,,Bravo Target Safety,1.0,0,0,0,0,,,,,,,2026-07-06,-17,,,,,"","",Installation,"",2026-07-06 12:18:35 -0600,,,120.0,,Dallas Ference
 1037,Printed/Cut Decals,4,,,3944,,Edmonton Catholic Cemeteries,1.0,0,0,0,0,,,,,,,2026-07-06,-17,,,,,"","",Production,"",2026-07-06 09:22:53 -0600,,,75.0,,Ashley
-1035,Vehicle Decals,5,,,3942,,Clayline Contracting,6.0,0,0,0,0,,,,,,,2026-07-06,-17,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:33 -0600,,,162.0,,Ashley
-1034,Decals,5,,,3942,,Clayline Contracting,4.0,0,0,0,0,,,,,,,2026-07-06,-17,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:25 -0600,,,48.0,,Ashley
-1048,ORDER CLOTHES,1,,,3955,,Safe & Lock Solutions Inc.,1.0,0,0,0,0,,,,,,,2026-07-09,-14,,,,,"","",Proofing,"",2026-07-07 14:30:50 -0600,,,0.0,,Dallas Ference
-1056,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,50.0,0,0,0,0,,,,,,,2026-07-14,-9,,,,,"","",Production,"",2026-07-14 10:24:08 -0600,,,360.0,,Dallas Ference
-1057,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,50.0,0,0,0,0,,,,,,,2026-07-14,-9,,,,,"","",Production,"",2026-07-14 10:24:11 -0600,,,526.0,,Dallas Ference
-1036,Vehicle Decals,5,,,3942,,Clayline Contracting,6.0,0,0,0,0,,,,,,,2026-07-20,-3,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:35 -0600,,,204.0,,Ashley
-1058,Installation,1,,,3965,,MKW Commercial Vehicle Outfitters,1.0,0,0,0,0,,,,,,M-06681,2026-07-22,-1,,,,,"","",Installation,"",2026-07-14 15:13:56 -0600,,,1105.0,,Dallas Ference
-1049,Press Clothing,1,,,3955,,Safe & Lock Solutions Inc.,1.0,0,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Proofing,"",2026-07-07 14:30:59 -0600,,,0.0,,Dallas Ference
-1055,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,63.0,0,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Production,"",2026-07-14 10:23:56 -0600,,,374.22,,Dallas Ference
-1045,RV DECALS,1,,3044,,,Gordon Lawrence,1.0,,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Installation,"",2026-07-07 10:54:56 -0600,,,0.0,,Dallas Ference
-1046,RV DECALS,1,,3044,,,Gordon Lawrence,1.0,,0,0,0,,,,,,,2026-07-24,1,,,,,"","",Installation,"",2026-07-07 10:55:00 -0600,,,0.0,,Dallas Ference
-1051,AMFM Production,1,,,3961,,AMFM,1.0,0,0,0,0,,,,,,,2026-07-27,4,,,,,"","",Production,"",2026-07-13 14:17:18 -0600,,,0.0,,Dallas Ference
-1059,SpaceKap Wrap,1,,,3970,,Jaron Wolff,1.0,0,0,0,0,,,,,,,2026-07-28,5,,,,,"","",Installation,"",2026-07-23 10:54:36 -0600,,,1900.0,,Dallas Ference
-1064,Vehicle Graphics,1,,,3972,,Vintage Towing,1.0,0,0,0,0,,,,,,,2026-07-28,5,,,,,"","",Installation,"",2026-07-23 11:07:16 -0600,,,1019.25,,Dallas Ference
-1065,Nissan Graphics,1,,,3972,,Vintage Towing,1.0,0,0,0,0,,,,,,,2026-07-29,6,,,,,"","",Installation,"",2026-07-23 11:07:20 -0600,,,0.0,,Dallas Ference
-1050,"Wall Decal, Door Decals",1,,,3961,,AMFM,2.0,0,0,0,0,,,,,,,2026-07-29,6,,,,,"","",Installation,"",2026-07-13 14:15:45 -0600,,,1490.0,,Dallas Ference
-1060,SpaceKap Wrap,1,,,3970,,Jaron Wolff,1.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-23 10:54:40 -0600,,,1900.0,,Dallas Ference
-1054,24ft Utility Trailer decals,1,,,3962,,Underwater Search Team,1.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-13 15:01:04 -0600,,,2450.0,,Dallas Ference
-1053,Parking Signs,1,,,3962,,Underwater Search Team,3.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-13 15:00:56 -0600,,,135.0,,Dallas Ference
+1018,Installation,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-16,-37,,,,,"","",Installation,"",2026-06-08 12:27:19 -0600,,,0.0,,Dallas Ference
 1052,Overhead Backlit Sign,1,,,3962,,Underwater Search Team,2.0,0,0,0,0,,,,,,,2026-07-31,8,,,,,"","",Installation,"",2026-07-13 15:00:47 -0600,,,2900.0,,Dallas Ference
 1061,Wrap Installation,1,,,3971,,MKW Commercial Vehicle Outfitters,20.0,0,0,0,0,,,,,,,2026-08-04,12,,,,,"","",Installation,"",2026-07-23 11:01:52 -0600,,,2400.0,,Dallas Ference
+1020,Installation,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-18,-35,,,,,"","",Installation,"",2026-06-08 12:29:32 -0600,,,0.0,,Dallas Ference
+1064,Vehicle Graphics,1,,,3972,,Vintage Towing,1.0,0,0,0,0,,,,,,,2026-07-28,5,,,,,"","",Installation,"",2026-07-23 11:07:16 -0600,,,1019.25,,Dallas Ference
+1019,Vehicle Graphics,1,,3011,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-17,-36,,,,,"","",Production,"",2026-06-08 12:29:24 -0600,,,731.7,,Dallas Ference
+1017,Vehicle Graphics,1,,3010,,,Vintage Towing,1.0,,0,0,0,,,,,,,2026-06-15,-38,,,,,"","",Production,"",2026-06-08 12:27:09 -0600,,,731.7,,Dallas Ference
+1053,Parking Signs,1,,,3962,,Underwater Search Team,3.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-13 15:00:56 -0600,,,135.0,,Dallas Ference
+1054,24ft Utility Trailer decals,1,,,3962,,Underwater Search Team,1.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-13 15:01:04 -0600,,,2450.0,,Dallas Ference
+1033,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-17,-36,,,,,"","",Installation,"",2026-06-12 15:33:41 -0600,,,0.0,,Dallas Ference
+1032,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-16,-37,,,,,"","",Installation,"",2026-06-12 15:33:37 -0600,,,0.0,,Dallas Ference
+1050,"Wall Decal, Door Decals",1,,,3961,,AMFM,2.0,0,0,0,0,,,,,,,2026-07-29,6,,,,,"","",Installation,"",2026-07-13 14:15:45 -0600,,,1490.0,,Dallas Ference
+1030,Color Change Vehicle Wrap,1,,,3924,,Impulse Garage,30.0,0,0,0,0,,,,,,,2026-06-18,-35,,,,,"","",Installation,"",2026-06-12 15:33:28 -0600,,,3150.0,,Dallas Ference
+1034,Decals,5,,,3942,,Clayline Contracting,4.0,0,0,0,0,,,,,,,2026-07-06,-17,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:25 -0600,,,48.0,,Ashley
+1035,Vehicle Decals,5,,,3942,,Clayline Contracting,6.0,0,0,0,0,,,,,,,2026-07-06,-17,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:33 -0600,,,162.0,,Ashley
+1048,ORDER CLOTHES,1,,,3955,,Safe & Lock Solutions Inc.,1.0,0,0,0,0,,,,,,,2026-07-09,-14,,,,,"","",Proofing,"",2026-07-07 14:30:50 -0600,,,0.0,,Dallas Ference
+1031,Install,1,,,3924,,Impulse Garage,1.0,0,0,0,0,,,,,,,2026-06-15,-38,,,,,"","",Installation,"",2026-06-12 15:33:34 -0600,,,0.0,,Dallas Ference
 1062,Wrap Installation,1,,,3971,,MKW Commercial Vehicle Outfitters,1.0,0,0,0,0,,,,,,,2026-08-05,13,,,,,"","",Installation,"",2026-07-23 11:01:56 -0600,,,0.0,,Dallas Ference
+1057,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,50.0,0,0,0,0,,,,,,,2026-07-14,-9,,,,,"","",Production,"",2026-07-14 10:24:11 -0600,,,526.0,,Dallas Ference
+1058,Installation,1,,,3965,,MKW Commercial Vehicle Outfitters,1.0,0,0,0,0,,,,,,M-06681,2026-07-22,-1,,,,,"","",Installation,"",2026-07-14 15:13:56 -0600,,,1105.0,,Dallas Ference
+1065,Nissan Graphics,1,,,3972,,Vintage Towing,1.0,0,0,0,0,,,,,,,2026-07-29,6,,,,,"","",Installation,"",2026-07-23 11:07:20 -0600,,,0.0,,Dallas Ference
 1063,Wrap Installation,1,,,3971,,MKW Commercial Vehicle Outfitters,1.0,0,0,0,0,,,,,,,2026-08-06,14,,,,,"","",Installation,"",2026-07-23 11:02:00 -0600,,,0.0,,Dallas Ference
+1045,RV DECALS,1,,3044,,,Gordon Lawrence,1.0,,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Installation,"",2026-07-07 10:54:56 -0600,,,0.0,,Dallas Ference
+1055,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,63.0,0,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Production,"",2026-07-14 10:23:56 -0600,,,374.22,,Dallas Ference
+1036,Vehicle Decals,5,,,3942,,Clayline Contracting,6.0,0,0,0,0,,,,,,,2026-07-20,-3,2026-07-06,,,,"","",Production,"",2026-07-06 09:13:35 -0600,,,204.0,,Ashley
+1059,SpaceKap Wrap,1,,,3970,,Jaron Wolff,1.0,0,0,0,0,,,,,,,2026-07-28,5,,,,,"","",Installation,"",2026-07-23 10:54:36 -0600,,,1900.0,,Dallas Ference
+1042,Vehicle Decals,1,,,3948,,Bravo Target Safety,1.0,0,0,0,0,,,,,,,2026-07-06,-17,,,,,"","",Installation,"",2026-07-06 12:18:35 -0600,,,120.0,,Dallas Ference
+1060,SpaceKap Wrap,1,,,3970,,Jaron Wolff,1.0,0,0,0,0,,,,,,,2026-07-30,7,,,,,"","",Installation,"",2026-07-23 10:54:40 -0600,,,1900.0,,Dallas Ference
+1056,Printed/Cut Decals,1,,,3963,,Bravo Target Safety,50.0,0,0,0,0,,,,,,,2026-07-14,-9,,,,,"","",Production,"",2026-07-14 10:24:08 -0600,,,360.0,,Dallas Ference
+1046,RV DECALS,1,,3044,,,Gordon Lawrence,1.0,,0,0,0,,,,,,,2026-07-24,1,,,,,"","",Installation,"",2026-07-07 10:55:00 -0600,,,0.0,,Dallas Ference
+1049,Press Clothing,1,,,3955,,Safe & Lock Solutions Inc.,1.0,0,0,0,0,,,,,,,2026-07-23,0,,,,,"","",Proofing,"",2026-07-07 14:30:59 -0600,,,0.0,,Dallas Ference
+1051,AMFM Production,1,,,3961,,AMFM,1.0,0,0,0,0,,,,,,,2026-07-27,4,,,,,"","",Production,"",2026-07-13 14:17:18 -0600,,,0.0,,Dallas Ference
